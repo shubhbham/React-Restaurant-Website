@@ -1,3 +1,26 @@
+Main landing page for authentic satisfaction with Dark and Light modes.
+
+<img width="936" alt="Screenshot 2023-09-19 230623" src="https://github.com/shubhbham/React-Restaurant-Website/assets/90957217/f912dd7e-dfc1-4cee-9d90-486f006b07ce">
+
+CSS cards with mobile responsive design.
+
+<img width="934" alt="Screenshot 2023-09-19 230651" src="https://github.com/shubhbham/React-Restaurant-Website/assets/90957217/08acacf7-755e-4602-b444-918f485333ef">
+
+Reservation for customers who are ariving for dining on spot at your restaurant.
+
+<img width="689" alt="Screenshot 2023-09-21 192921" src="https://github.com/shubhbham/React-Restaurant-Website/assets/90957217/b3ba0c13-19df-4d2e-a293-a6c145fd70f6">
+
+Map intigration for exact location confirmation.
+
+<img width="688" alt="Screenshot 2023-09-21 192714" src="https://github.com/shubhbham/React-Restaurant-Website/assets/90957217/32cb8e57-3494-442d-b5ef-6c9e16c7a7a3">
+
+Compleately mobile responsive.
+
+<img width="479" alt="Screenshot 2023-09-22 135347" src="https://github.com/shubhbham/React-Restaurant-Website/assets/90957217/f2282ac6-cfb1-4342-ba9e-60222e2a44af">
+<br>
+<img width="536" alt="Screenshot 2023-09-22 135444" src="https://github.com/shubhbham/React-Restaurant-Website/assets/90957217/393c1c5d-353b-4285-add2-7c13958e79da">
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
