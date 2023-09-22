@@ -1,0 +1,131 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.black-screen {
+    background-color:#050404;
+}
+
+/* styles.css */
+
+/* Light mode */
+.light-mode {
+    color: black;
+}
+
+/* Dark mode */
+.dark-mode {
+    color: white;
+}
+
+
+/* Cards from Cardcomponent file and  from components folder */
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.card {
+    flex: 1;
+    background-color: #fff;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0.1, 0.1, 0, 0.3);
+    margin: 10px;
+}
+
+.card-image {
+    width:100%;
+    height:210px;
+}
+
+.card-content {
+    padding: 10px;
+    background-color: rgb(220, 221, 223);
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: rgb(155, 63, 236);
+}
+
+.card-text {
+    /* font-family: 'Kaushan Script', 'cursive'; */
+     font-family: 'Artifika', 'serif';
+    font-size: 1.15rem;
+    color: #333;
+    padding-bottom: 20px;
+}
+
+.tags {
+    margin-top: 10px;
+}
+
+.tag {
+    display: inline-block;
+    background-color: #ccc;
+    color: #333;
+    padding: 3px 10px;
+    border-radius: 20px;
+    font-size: 0.875rem;
+    font-weight: bold;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+/*mobile view for cards in css  */
+
+
+
+@media (max-width: 900px) {
+    .card-container {
+        flex-direction: column; /* Stack cards vertically */
+        align-items: center; /* Center-align cards */
+    }
+
+    .card {
+        max-width: 100%; /* Make each card take up the full width */
+        height:auto;
+    }
+    
+}
+
+
+.leaflet-container{
+    height: 500px;
+    width: 800px;
+    position: relative; 
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgba(5, 5, 5,3);
+}
+
+
+@media (max-width: 900px) {
+    .leaflet-container{
+        margin-top: 25px;
+        height: 160vw;
+        width: 90vw;
+        position: relative; 
+        position: absolute; 
+        top: 50%; 
+        left: 50%; 
+        transform: translate(-50%, -50%); 
+        border-radius: 20px;
+        box-shadow: 5px 5px 10px rgba(5, 5, 5,3);
+    }
+    
+}
+
+.mapsfooter{
+ margin-top:43vw;
+
+}
